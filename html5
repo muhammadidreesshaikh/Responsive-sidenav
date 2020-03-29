@@ -1,0 +1,47 @@
+<header>
+        <div class="top-bar">
+            
+            <div class="toggleMenu" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+              
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-2 col-lg-2">
+                        <div class="logo">
+                            <img src="img/logo1.webp">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-7 col-md-7 col-lg-7">
+                        <div class="nav">
+                            <ul>
+                                <li><a class="active" href="#">Programs</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Clients</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <div class="oder">
+                            <a href="#"><i class="fas fa-pencil-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- mobile side-menu -->
+                    <div class="mobile-nav">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="#">Programs</a>
+                            <a href="#">About</a>
+                            <a href="#">Clients</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
